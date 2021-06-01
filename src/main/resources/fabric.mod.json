@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "eye_randomizer",
+  "version": "${version}",
+  "name": "Eye_randomizer",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "perfect_travel.eye_randomizer.client.Eye_randomizerClient"
+    ],
+    "main": [
+      "perfect_travel.eye_randomizer.Eye_randomizer"
+    ]
+  },
+  "mixins": [
+    "eye_randomizer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.1.0",
+    "minecraft": "1.16.1"
+  }
+}

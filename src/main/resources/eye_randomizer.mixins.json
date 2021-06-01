@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "perfect_travel.eye_randomizer.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EyeMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
